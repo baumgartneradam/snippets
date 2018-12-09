@@ -8,20 +8,20 @@ authors: Zolnai László, Schöberl Krisztián, Baumgartner Ádám
 
 # Határozott határozatlanság csapat összefoglalója
 
-## 1) 
+## 1) Nem jelennek meg a változások?
 Ha nem akarnak megjelenni a változások újrabuildelés során, megéri kitörölni a build könyvtárat.
 
-## 2) Objektumok forgatása
-Körülményes nem szimmetrikus objektumokat forgatni, célszerű ilyeneket választani.
-
-## 3) QML debuggolása
+## 2) QML debuggolása
 QML debugoláshoz hasznos a QDebug << “” parancs, amivel a konzolban tudunk megjeleníteni üzeneteket.
+
+## 3) Objektumok forgatása
+Körülményes nem szimmetrikus objektumokat forgatni, célszerű ilyeneket választani.
 
 ## 4) Esztétikai tanácsok
 ### 4.1)
-A legtöbb QT-ben fejlesztett alkalmazásnak nincs ikonja, ami nem kölcsönöz túl jó megjelenést a fejlesztésünknek. 
-Az ikon hozzáadásához szükségünk van egy .ico filera a projektkönyvtárban, valamint az alábbi sort kell hozzáadni a projektfileunkhoz:
+A legtöbb QT-ben fejlesztett alkalmazásnak nincs ikonja, ami nem kölcsönöz túl jó megjelenést. Az ikon hozzáadásához szükségünk van egy .ico fájlra a projektkönyvtárban, valamint az alábbi sort kell hozzáadni a projektfájlunkhoz: 
 RC_ICONS = robo.ico
+
 Ez után csak egy qmake választ el a profibb megjelenéstől minket.
 
 ### 4.2)
