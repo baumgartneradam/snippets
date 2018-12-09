@@ -15,7 +15,7 @@ Ha nem akarnak megjelenni a változások újrabuildelés során, megéri kitör�
 QML debugoláshoz hasznos a QDebug << “” parancs, amivel a konzolban tudunk megjeleníteni üzeneteket.
 
 ## 3) Qt saját típusai
-Néha váratlanul meg tudnak viccelni a Qt saját típusai, amiket ráadásul sok esetben nehéz debugolni. Pl. volt olyan függvény, ami hibátlanul működött QList<double>-lel és QList<int>-tel, de QList<float>-tal nem. 
+Néha váratlanul meg tudnak viccelni a Qt saját típusai, amiket ráadásul sok esetben nehéz debugolni. Pl. volt olyan függvény, ami hibátlanul működött ```QList<double>```-lel és ```QList<int>```-tel, de ```QList<float>```-tal nem. 
 
 ## 4) Objektumok forgatása
 Körülményes nem szimmetrikus objektumokat forgatni, ezért célszerű szimmetrikusokat választani.
